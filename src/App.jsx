@@ -12,6 +12,11 @@ export default function App() {
         <button onClick={() => setNeutron("quiz")}>Quiz</button>
         <button onClick={() => setNeutron("pdf")}>PDF</button>
         <button onClick={() => setNeutron("loading")}>Loading</button>
+        <button onClick={() => setNeutron("404")}>404</button>
+        <button onClick={() => setNeutron("fail")}>Fail</button>
+        <button onClick={() => setNeutron("alert")}>Alert</button>
+        <button onClick={() => setNeutron("success")}>Success</button>
+        <button onClick={() => setNeutron("question")}>Question</button>
       </div>
       <Neutron track={neutron} />
     </div>
